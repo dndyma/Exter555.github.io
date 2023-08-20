@@ -3,11 +3,8 @@ const resetButton = document.querySelector('.js-reset-button');
 let intervalId; // Variabel untuk menyimpan ID interval
 let CountSecond = 0; // Variabel untuk menghitung iterasi
 let countMinutes = 0;
-<<<<<<< HEAD
 let countHours = 0;
-=======
-let countHours = 1;
->>>>>>> d23dd25bf7c8e1476e8e046438a485c7df2eb15e
+
 
 resetButton.addEventListener('click', () => {
     CountSecond = 0;
